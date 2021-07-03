@@ -11,7 +11,7 @@ namespace TodoApp.Apis.Tests.ConsoleApp
     {
         static async Task Main(string[] args)
         {
-            string url = "https://localhost:44376/api/Todos";
+            const string url = "https://localhost:44376/api/Todos";
             using (var client = new HttpClient())
             {
                 // 데이터 전송
